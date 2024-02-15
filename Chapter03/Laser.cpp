@@ -30,6 +30,11 @@ Laser::Laser(Game* game)
 	mCircle->SetRadius(11.0f);
 }
 
+Laser::~Laser()
+{
+    delete mCircle;
+}
+
 void Laser::UpdateActor(float deltaTime)
 {
 	// If we run out of time, laser is dead
