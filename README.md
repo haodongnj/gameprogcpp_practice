@@ -1,3 +1,12 @@
+Adapted for Ubuntu 22.04 with cmake.
+Prerequisites:
+
+```bash
+sudo apt install libglew-dev libsdl2-dev libsdl2-image-dev libopengl-dev libsoil-dev 
+```
+
+---
+
 # Game Programming in C++ Code
 This repository contains the source code for *Game Programming in C++* by Sanjay Madhav.
 
